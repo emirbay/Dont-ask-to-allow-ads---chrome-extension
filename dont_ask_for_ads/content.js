@@ -1,13 +1,11 @@
 var repeatedTimes = 20;
 var gIntervalID; 
 function setIntervalX(callback, delay, repetitions) {
-    console.log('Ovo je intervalID:' + intervalID)
     var x = 0;
       var intervalID = window.setInterval(function () {
         gIntervalID = intervalID;   
        callback();
        if (++x === repetitions) {
-        console.log('Clear interval ID:' + intervalID)
            window.clearInterval(intervalID);
        }
     }, delay);
