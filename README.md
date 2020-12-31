@@ -17,7 +17,7 @@ Extension works with any modal displayed after page is loaded (there should be "
 
 Extension also destroy Yahoo Mail message forcing you to disable ad-block or wait for 15 seconds to let you see emails.
 
-![dont ask please](http://url/to/img.png)
+![ScreenShot](/dont_ask_for_ads/mail_yahoo_adblock.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
