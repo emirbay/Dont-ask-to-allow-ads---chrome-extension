@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Dont ask to allow ads please!",
+    "description": "Auto close modal that asks you to allow ads! (e.g. klix.ba, sportsport.ba, mail.yahoo.com) ",
+    "version": "0.2",
+    "browser_action": {
+        "default_icon": "icon_t.png",
+        "icons": {
+            "16": "icon_t.png",
+            "48": "icon_t.png",
+            "128": "icon_t.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "run_at" : "document_idle",
+            "matches": [
+                "<all_urls>"
+            ],
+            "js":[
+                "jquery.min.js",
+                "content.js"
+            ]
+        }
+    ],
+    "author":"Emir Bajric"
+ 
+}
+ 
