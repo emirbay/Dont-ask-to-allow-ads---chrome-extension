@@ -19,15 +19,22 @@ $(document).ready(function()
       setIntervalX(function () {
         console.log('DontAsk: checking for any modals...' +repeatedTimes);
         var isThereClass = document.getElementsByClassName('fc-close');
-        if (isThereClass.length > 0) {
+        var isThereDidomiClass = document.getElementsByClassName('didomi-popup-open');  //didomi.io  gdpr
+            if (isThereClass.length > 0) {
             var t1 = performance.now();
                console.log("DontAsk execution time:" + (t1 - t0) + " milliseconds.");
                $('.fc-close').click();
                 console.log('DontAsk: Modal closed!');
                 window.clearInterval(gIntervalID);
             }
+            if (isThereDidomiClass.length > 0) {
+                document.querySelector('body').classList.remove('didomi-popup-open');  // clear body class for scrollbar
+                document.getElementById("didomi-popup").style.display="none";
+            }
+
      }, 200, repeatedTimes);
-    
+
+ 
    
 
     // check for Yahoo mail!
