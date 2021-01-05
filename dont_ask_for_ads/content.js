@@ -18,9 +18,9 @@ $(document).ready(function()
 
       setIntervalX(function () {
         console.log('DontAsk: checking for any modals...' +repeatedTimes);
-        var isThereClass = document.getElementsByClassName('fc-close');
+        var isThereCloseClass = document.getElementsByClassName('fc-close');
         var isThereDidomiClass = document.getElementsByClassName('didomi-popup-open');  //didomi.io  gdpr
-            if (isThereClass.length > 0) {
+            if (isThereCloseClass.length > 0) {
             var t1 = performance.now();
                console.log("DontAsk execution time:" + (t1 - t0) + " milliseconds.");
                $('.fc-close').click();
@@ -35,7 +35,6 @@ $(document).ready(function()
      }, 200, repeatedTimes);
 
  
-   
 
     // check for Yahoo mail!
     if (window.location.href.indexOf("mail.yahoo.com") > -1) {
