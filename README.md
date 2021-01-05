@@ -18,7 +18,7 @@ didomi.io GDPR modals will be hidden
 
 Extension also hide Yahoo Mail popup forcing you to disable ad-block or wait for 15 seconds to let you see emails.
 
-<img src="/dont_ask_for_ads/mail_yahoo_adblock.png" width="300" height="300">
+<img src="/dont_ask_for_ads/mail_yahoo_adblock.png" width="400" height="300">
 
 
 ## Contributing
