@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Dont ask to allow ads please!",
+    "name": "Dont ask to allow ads!",
     "description": "Auto close modal that asks you to allow ads! (e.g. klix.ba, sportsport.ba, mail.yahoo.com) ",
     "version": "0.2",
     "browser_action": {
@@ -23,6 +23,17 @@
                 "content.js"
             ]
         }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab",
+         "https://*.fundingchoicesmessages.google.com/*",
+         "https://*.sdk.privacy-center.org/*",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
     ],
     "author":"Emir Bajric"
  
