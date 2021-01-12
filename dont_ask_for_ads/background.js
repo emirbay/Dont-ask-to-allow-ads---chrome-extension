@@ -5,7 +5,6 @@ chrome.webRequest.onBeforeRequest.addListener(
         return {cancel: true};
     }, {
         urls: ["https://*.fundingchoicesmessages.google.com/*",
-            "https://*.s.yimg.com/nq/*",
             "https://*.sdk.privacy-center.org/*"]
     }, ["blocking"]
  
