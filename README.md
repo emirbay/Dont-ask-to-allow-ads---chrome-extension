@@ -13,13 +13,25 @@ Enable "Developer mode" and click "Load unpacked" extension or drag the folder w
 
 ## Description
 
+<<<<<<< HEAD
 Extension works with modals from: 
+
     - Funding Choices: Google Consent Management Platform (CMP) that integrates with Google’s advertising services to help you navigate user choice for privacy regulations like GDPR and CCPA.
+    
     - didomi.io: Didomi’s Consent Management Platform allows you to easily manage and optimize user consent collection on all your channels
 
 Extension also hide Yahoo Mail popup forcing you to disable ad-block or wait for 15 seconds to let you see emails.
 
 <img src="/dont_ask_for_ads/mail_yahoo_adblock.png" width="400" height="300">
+=======
+Extension works with any modal displayed after page is loaded. There should be "Close button" with class "fc-close".
+didomi.io GDPR modals will be hidden
+
+Extension also hide Yahoo Mail popup forcing you to disable ad-block or wait for 15 seconds to let you see emails.
+
+<img src="/dont_ask_for_ads/mail_yahoo_adblock.png" width="400" height="300">
+
+>>>>>>> 41dc051fb0b453860db0034fb1a45aef1c369d63
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
