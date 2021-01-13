@@ -14,10 +14,11 @@ Enable "Developer mode" and click "Load unpacked" extension or drag the folder w
 ## Description
 
 Extension block modals from: 
-
-    - Funding Choices: Google Consent Management Platform (CMP) that integrates with Google’s advertising services to help you navigate user choice for privacy regulations like GDPR and CCPA.
+```bash
+ - Funding Choices: Google Consent Management Platform (CMP) that integrates with Google’s advertising services to help you navigate user choice for privacy regulations like GDPR and CCPA.
     
-    - didomi.io: Didomi’s Consent Management Platform allows you to easily manage and optimize user consent collection on all your channels
+- didomi.io: Didomi’s Consent Management Platform allows you to easily manage and optimize user consent collection on all your channels
+```
 
 Extension also hide Yahoo Mail popup forcing you to disable ad-block or wait for 15 seconds to let you see emails.
 
