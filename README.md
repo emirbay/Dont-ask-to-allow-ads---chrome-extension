@@ -15,7 +15,7 @@ Enable "Developer mode" and click "Load unpacked" extension or drag the folder w
 
 Extension block modals from: 
 ```bash
- - Funding Choices: Google Consent Management Platform (CMP) that integrates with Google’s advertising services to help you navigate user choice for privacy regulations like GDPR and CCPA.
+- Funding Choices: Google Consent Management Platform (CMP) that integrates with Google’s advertising services to help you navigate user choice for privacy regulations like GDPR and CCPA.
     
 - didomi.io: Didomi’s Consent Management Platform allows you to easily manage and optimize user consent collection on all your channels
 ```
